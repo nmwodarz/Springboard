@@ -35,19 +35,8 @@ exploring the data, and getting acquainted with the 3 tables. */
 Write a SQL query to produce a list of the names of the facilities that do. */
 SELECT name FROM Facilities WHERE membercost != 0;
 
-A1:
-name
-Tennis Court 1
-Tennis Court 2
-Massage Room 1
-Massage Room 2
-Squash Court
-
 /* Q2: How many facilities do not charge a fee to members? */
 SELECT COUNT(*) FROM Facilities WHERE membercost = 0;
-
-A2: 4
-
 
 /* Q3: Write an SQL query to show a list of facilities that charge a fee to members,
 where the fee is less than 20% of the facility's monthly maintenance cost.
